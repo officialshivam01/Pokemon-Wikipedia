@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    font-size: 16px;
+}
+.navbar {
+    width: 100%;
+}
+
+.nav-container {
+    width: 98%;
+    margin: auto;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3.5em ;
+}
+.nav-list li {
+    list-style: none;
+}
+.nav-list li .dropdown-btn {
+    background-color: white;
+    border: none;
+    color: grey;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: grey;
+}
+.dropdown {
+    display: flex;
+}
+.dropdown img {
+    width: 20px;
+    padding-right: 18px;
+}
+.logo img {
+    height: 28px;
+}
+.btn {
+    cursor: pointer;
+}
+.btn-apply {
+    padding: 1px 40px;
+    background-color:  #ef6c00;
+    color: white;
+    border: none;    
+}
+
+/********   Home Page Styling   *********/
+section {
+    padding: 1em;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    padding: .3em 0;
+}
+
+.home {
+    height: 93vh;
+    width: 100%;
+    background:url("https://i.imgur.com/ksqOx5F.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;    
+}
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #000000b3;
+}
+.container {
+    width: 75%;
+    margin:auto;
+}
+.main-heading {
+    padding-top: 11vh;
+    font-size: 90px;
+    color: #fff;
+    text-transform: uppercase;    
+}
+.sub-heading {
+    font-size:33px;
+    color: #fff;
+    padding: .8em 0;
+}
+.btn-primary {
+    display: block;
+    margin: .8em 0;
+    background-color: #4992ca;
+    color: #fff;
+    border: none;
+    padding: 1em 4.8em;
+}
+.btn-secondary {
+    margin: .6em 0;
+    background-color:#0000;
+    border: 2px solid white;
+    color: #fff;
+    padding: 1em 3em;
+}
+.message {
+    margin: 10px 0;
+    padding: 18px 20px;
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 15px;
+}
+.message a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+/********   Pocket Monster Styling   *********/
+
+.pocket-monster {
+    background-color:  #4992ca;
+    padding: 3rem 0 ;
+
+}
+.pm-section {
+    text-align: center;
+    color: #fff;    
+}
+.pm-section h2 {
+    font-size:45px;
+}
+.pm-section p:first-of-type {
+    padding: 2em 0;
+    line-height: 22px
+}
+.pokemon-types {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+.pokemon-types div .icon {
+    padding: 2em 0;
+}
+.pokemon-types div h4 {
+    font-size: 30px;
+}
+.type-description {
+    padding: 2em;
+    line-height: 22px;
+}
+
+/********   Statistics  Styling   *********/
+
+.statistics .container {
+    padding: 1em;
+    text-align: center;
+}
+.statistics .container h2 {
+    font-size:42px;
+}
+.stats-section {
+    display: flex;
+    padding:.2em 0;
+    gap: 1.2em;
+}
+.stats h4 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.stats .info {
+    padding: 2em 0;
+    line-height: 22px;
+}
+
+/********   year-list  Styling   *********/
+
+.year-list .container {
+    text-align: center;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    gap: 2em;
+    padding: 1em 0;
+}
+
+
+.poke-img img {
+    height: 29vh;
+    border-radius: 50%;
+
+}
+.poke-type img{
+    height: 8vh;
+}
+.poke-type h4 {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(90, 89, 89);
+}
+.poke-type h6 {
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+    padding: .2em 0;
+}
+.poke-description {
+    text-align: left;
+    color: gray;
+    line-height: 22px;
+}
+
+/********   Q and A  Styling   *********/
+.qanda {
+    background-color: #4992ca;
+    color: #fff;
+    padding: 2em 0;
+}
+
+.qanda .subtitle {
+    font-size: 22px;
+    padding: 1em 0;
+}  
+.qanda .questions h4 {
+    font-size: 22px;
+}  
+.qanda .answer {
+    position: relative;
+    left: 5em;
+}
+.qanda .answer li {
+    padding: .2em;
+    line-height: 22px;
+}
+
+
+
+
+/*  battles  */
+.battles {
+    padding: 2em;
+}
+.battles .container {
+    max-width: 65%;
+}
+
+.center {
+    text-align: center;
+}
+.battles .subtitle {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 0.7em 0; 
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    gap: .5em;
+}
+.left-side {
+    max-width: 32%;
+}
+.right-side {
+    max-width: 67%;
+    margin:1em;
+}
+.left-side p {
+    padding: 1em 0;
+    line-height: 25px;
+    color: #8a8a8a;
+}
+.left-side .ls-title {
+    font-weight: bold;
+    color: #000;
+}
+.chart th {
+    text-align: left;
+    color: #000;
+}
+.right-side table, th, td{
+    max-width: 100% ;
+    border: 1px solid #a1a1a1;
+    border-collapse: collapse;
+    padding: .7em .6em;
+    color: #8a8a8a;
+}
+
+.right-side p {
+    margin: .9em 0;
+}
+.battles .buy-ticket {
+    padding: .5em;  
+    font-size: 24px;
+    color: #4992ca;
+}
+.battles button {
+    text-align: center;
+    margin: .3em auto;
+
+    padding: .8em 6em;
+}
+
+
+/******************* know more ****************/
+
+.know-more {
+    background-color: #424242;
+    height: 40vh;
+    
+}
+.know-more .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+.know-more .title {
+    color: #fff;
+    font-size: 45px;
+}
+.know-more button  {
+    padding:1em 6.5em;
+    border: 3px solid #fff;
+    font-weight: 550; 
+}
+
+
+/******************* Pokemon Card ****************/
+
+.poke-card .title {
+    color: #424242;
+}
+
+.poke-card .card {
+    max-width: 18%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    background-color: #fafafa;
+    padding: .8em .9em;
+    
+}
+.poke-card .card .name {
+    color: #8a8a8a;
+}
+.poke-card .card .ability {
+    font-weight: bold;
+}
+
+/******************* Trainers ****************/
+
+.trainers {
+    background-color: #4992ca;
+    color: #fff;
+    padding: 2em 0;
+}
+.trainers .poke-description{
+    color: #fff;
+
+}
+.trainers .poke-type h4, .trainers .poke-type h6 {
+    color: #fff;
+}
+
+
+
+/****************  Generation card **************/
+
+.generations .title {
+    color:#8a8a8a;
+}
+.generations .gen-cards {
+    display: flex;
+    margin: .8em auto auto auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.generations .gen-cards .card {
+    flex: 42%;
+}
+
+.generations .gen-cards .card .part1,.part2 {
+    padding: 1em .8em; 
+    background-color: #fafafa;
+    border: 1px solid #e4e4e4;
+}
+.gen-cards .card .card-title {
+    font-size: 38px;
+}
+.gen-cards .card .duration {
+    font-size: 20px;
+}
+.card .part2 {
+    padding: 1.8em .6em;
+}
+.card .part2 .description {
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+/*********** subscription ***********/
+.subscribe {
+    padding: 0;
+}
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+    gap: .5em;
+}
+.subscribe .input {
+    min-width: 32%;
+    padding: 1.1em;
+}
+
+/*******  poke-games  *******/
+
+.poke-games .container {
+    max-width: 63%;
+    padding: 1em 0;
+    text-align: center;
+
+}
+
+.poke-games .games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 1.2em 0;
+    gap: 2em;
+}
+.poke-games .game {
+    flex: 31%;
+}
+.poke-games .game-title {
+    padding: .5em 0;
+    font-size: 18px;
+}
+.poke-games .game-description {
+    padding: .5em 0;
+}
+.poke-games .games-list .game img {
+    max-height: 200px;
+    padding: .5em 0;
+}
+
+.poke-games .container button {
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+/***************** Designers **********/
+
+.designers {
+    background-color: #4992ca;
+    color: #fff;
+    text-align: center;
+
+}
+.designers .container {
+    width: 80%;
+    padding: 1.5em 0;
+}
+
+.designers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center; 
+    gap: 1.5em;
+    margin: 1em auto; 
+}
+.designers-list .designer {
+    flex: 30%;
+}
+
+.designers-list img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.designers-list .name {
+    font-size: 30px;
+    font-weight: 400;
+}
+.designers-list .role {
+    font-size:18px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.designers-list .description {
+    line-height: 22px;
+    text-align: left;
+}
+/***************** Logos ***************/
+
+.logos-section .title {
+    color: #8a8a8a;
+}
+.logos-section p {
+    padding: 1em 0;
+    text-align: center;
+}
+.logos-section .logo-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around; 
+    gap: 0 12em;  
+}
+
+.logos-section .logo-column img {
+    height: 50px;
+}
+
+
+/******** know more *************/ 
+
+.bg-blue {
+    height: max-content;
+    background-color: #4992ca;
+}
+
+.footer {
+    background-color:#00121b;
+    padding: 2em 0;
+}
+
+.footer .heading {
+    color: #535252;
+    padding: 0.3em;
+    font-size:17px;
+}
+.footer .category a {
+    padding: 0.3em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.footer .category {
+    display: flex;
+    flex-direction: column;
+}
+.footer .social {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
